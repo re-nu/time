@@ -19,29 +19,8 @@ async function create() {
      console.log("file creted")
  })
  }
-  // create();
+   create();
 
-//  async function read(){
-//   //  let result="hi";
-//   try{
-//    return await fs.readdir("./timeFiles",(err,files)=>{
-//       if(err){
-//         console.log("error",err);
-//       }
-//       else{
-//         result=files;
-//         //  console.log("All files inside timeFiles",result);
-//         // return files;
-//       }
-//   })
-//   // return f;
-//   }
-//   catch (e) {
-//     return 'caught';
-//   }
-
-// }
- //read();
 
  app.get("/",async (request,response)=>{
    response.send(str);
